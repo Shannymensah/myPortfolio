@@ -12,9 +12,12 @@
   <nav>
     <div class="nav-container">
       <img src="images/logo.png" alt="Logo" class="logo" />
+      <button class="menu-toggle">☰</button>
       <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -26,10 +29,11 @@
     <h2>Let's Get Started</h2>
   </section>
 
-  <!-- Header Section -->
+  <!-- Hero Section -->
   <header>
     <h1>Shanny Mensah</h1>
     <p>Web Developer | Designer | Creative Thinker</p>
+    <a href="#projects" class="cta-button">See My Work</a>
   </header>
 
   <!-- Main Content -->
@@ -43,6 +47,23 @@
         I am passionate about building modern websites and learning new technologies.  
         This portfolio highlights some of my projects and the skills I am developing as a web developer.
       </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <div class="skill">
+        <p>HTML</p>
+        <div class="bar"><span style="width: 90%"></span></div>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <div class="bar"><span style="width: 80%"></span></div>
+      </div>
+      <div class="skill">
+        <p>JavaScript</p>
+        <div class="bar"><span style="width: 70%"></span></div>
+      </div>
     </section>
 
     <!-- Projects Section -->
@@ -60,12 +81,12 @@
       </article>
     </section>
 
+    <!-- Testimonials Section -->
     <section id="testimonials">
-        <h2>What People Say</h2>
-        <blockquote>"Shanny is an exceptional developer!" – Client A</blockquote>
-        <blockquote>"Her attention to detail is amazing." – Client B</blockquote>
-      </section>
-      
+      <h2>What People Say</h2>
+      <blockquote>"Shanny is an exceptional developer!" – Client A</blockquote>
+      <blockquote>"Her attention to detail is amazing." – Client B</blockquote>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact">
@@ -97,5 +118,10 @@
     <p>© 2025 Shanny Mensah | All Rights Reserved</p>
   </footer>
 
+  <!-- Back to Top -->
+  <button id="back-to-top">⬆</button>
+
+  <!-- JavaScript File -->
+  <script src="scripts/script.js"></script>
 </body>
 </html>
